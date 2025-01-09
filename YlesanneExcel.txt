@@ -5,7 +5,7 @@ Käivita antud funktsioonid Excelis ja leia vead, paranda neid. Ära kasuta AI v
 1. Lahtris B3 on antud isiku ees- ja perenimi "Ilmar Tamm".
 Mis valemiga saab isiku nimi kujul "Tamm, Ilmar"?
 
-=RIGHT(B3;LEN(B3)-FIND("";B3))&", "&LEFT(B3;FIND("";B3)+1)
+=RIGHT(B3;LEN(B3)-FIND(" ";B3))&", "&LEFT(B3;FIND(" ";B3)-1)
 
 2. Lahtris B3 on antud isikukood. Mis valemiga saab leida isiku sugu? Oletatakse, et antud isikukood on õige.
 
