@@ -13,5 +13,5 @@ Mis valemiga saab isiku nimi kujul "Tamm, Ilmar"?
 
 3. Kujuta ette, et sul on eksamitulemustega veerg B ja sa tahad teada, kas õpilane sai eksamist läbi või mitte.  Koosta IF fuktsiooni Exceli jaoks. 
 
-
+=IF(B2>=50, "Läbi", "Ebaõnnestunud")
 
