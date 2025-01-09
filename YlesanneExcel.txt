@@ -11,5 +11,6 @@ Mis valemiga saab isiku nimi kujul "Tamm, Ilmar"?
 2. Lahtris B3 on antud isikukood. Mis valemiga saab leida isiku sugu? Oletatakse, et antud isikukood on õige.
 
 =IF(OR(LEFT(B3)="3";LEFT(B3)="5");"M";IF(AND(LEFT(B3)="4";LEFT(B3)="6");"N";"Viga!"))
+'=IF(OR(LEFT(B3;1)="3"; LEFT(B3;1)="5"); "M"; IF(OR(LEFT(B3;1)="4"; LEFT(B3;1)="6"); "N"; "Viga!"))
 
 3. Kujuta ette, et sul on eksamitulemustega veerg B ja sa tahad teada, kas õpilane sai eksamist läbi või mitte.  Koosta IF fuktsiooni Exceli jaoks. 
