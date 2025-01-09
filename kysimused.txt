@@ -2,7 +2,7 @@ iga küsimus on vaja commitida eraldi
 
 Küsimus 1. Excel funktsioonid:
 Lahtris B3 on antud isikukood. Mis valemiga saab leida isiku sünnikuu?
-=
+=MID(B3;3;2)
 
 Küsimus 2. Excel funktsioonid:
 Lahtris A4 on antud eesnimi ja B4 on antud perenimi.
