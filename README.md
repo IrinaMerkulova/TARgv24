@@ -16,5 +16,7 @@ Arvestuse saamiseks on vaja teha:
   Vaata ka minu konspekti WP-portfoolios:
   <a href="https://merkulova.thkit.ee/ta/" target="_blank">WP link</a>
   This site was built using [GitHub Pages](https://pages.github.com/)
+  ![image](https://github.com/user-attachments/assets/e7b8bc55-cb0b-4f11-a7df-b6bee3171aaa)
+
 
   
