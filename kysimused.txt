@@ -1,5 +1,3 @@
-iga küsimus on vaja commitida eraldi
-
 Küsimus 1. Excel funktsioonid:
 Lahtris B3 on antud isikukood. Mis valemiga saab leida isiku sünnikuu?
 = MID(B3;4;2)
