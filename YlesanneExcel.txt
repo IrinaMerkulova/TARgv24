@@ -1,0 +1,16 @@
+Iga ülesanne on vaja commitida eraldi!
+
+Käivita antud funktsioonid Excelis ja leia vead, paranda neid. Ära kasuta AI vahendeid!
+
+1. Lahtris B3 on antud isiku ees- ja perenimi "Ilmar Tamm".
+Mis valemiga saab isiku nimi kujul "Tamm, Ilmar"?
+
+=RIGHT(B3;LEN(B3)-FIND("";B3))&", "&LEFT(B3;FIND("";B3)+1)
+
+2. Lahtris B3 on antud isikukood. Mis valemiga saab leida isiku sugu? Oletatakse, et antud isikukood on õige.
+
+=IF(OR(LEFT(B3)="3";LEFT(B3)="5");"M";IF(AND(LEFT(B3)="4";LEFT(B3)="6");"N";"Viga!"))
+
+3. Kujuta ette, et sul on eksamitulemustega veerg B ja sa tahad teada, kas õpilane sai eksamist läbi või mitte.  Koosta IF fuktsiooni Exceli jaoks. 
+
+=IF(B2>=70; "Läbi"; "Ei läbinud")
