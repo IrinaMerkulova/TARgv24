@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Kirjuta oma nimi: Anna Oleks
+=======
+Kirjuta oma nimi: Gleb Dranitsyn
+>>>>>>> db90323e5d5dae4124d24ad1e01890f26468ead8
