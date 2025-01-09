@@ -8,3 +8,5 @@ Küsimus 2. Excel funktsioonid:
 Lahtris A4 on antud eesnimi ja B4 on antud perenimi.
 Mis valemiga saab isiku nimi kujul "E. Perenimi"?
 =LEFT(A4;1)&". "&B4 
+
+Jah
